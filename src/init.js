@@ -29,4 +29,9 @@ $(document).ready(function() {
     );
     $('body').append(dancer.$node);
   });
+
+  $('button').on('click', function(event) {
+    
+  });
+
 });
