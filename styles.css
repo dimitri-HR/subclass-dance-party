@@ -3,7 +3,7 @@ body, html{
 }
 body{
   margin: 0px;
-  background-color:#444;
+  background:url(EDC-LV-2016.jpg);
   font-size: 18px;
 }
 body, a:link, a:visited, a:active{
@@ -24,4 +24,39 @@ body, a:link, a:visited, a:active{
   border:10px solid red;
   border-radius:10px;
   position:absolute;
+}
+.blinking-dancer{
+  border: none;
+  height: 130px;
+  width: 100px;
+  position:absolute;
+  background:url(img/rochelle.png) no-repeat top left;
+}
+.shaky-dancer{
+  border: none;
+  height: 130px;
+  width: 100px;
+  position:absolute;
+  background:url(img/tre.png) no-repeat top left;
+}
+.flipping-dancer{
+  border: none;
+  height: 130px;
+  width: 100px;
+  position:absolute;
+  background:url(img/dimitri.png) no-repeat top left;
+}
+.rubberband-dancer{
+  border: none;
+  height: 130px;
+  width: 100px;
+  position:absolute;
+  background:url(img/ryan.png) no-repeat top left;
+}
+.rolling-dancer{
+  border: none;
+  height: 130px;
+  width: 100px;
+  position:absolute;
+  background:url(img/cody.png) no-repeat top left;
 }
