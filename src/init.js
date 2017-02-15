@@ -27,11 +27,22 @@ $(document).ready(function() {
       $('body').width() * Math.random(),
       Math.random() * 1000
     );
+    window.dancers.push(dancer);
+
     $('body').append(dancer.$node);
   });
 
+  $('.groupDanceButton').mouseover(function() {
+    // console.log("works");
+     // $.each(window.dancers, function(dancer) {
+    alert('IT\'S PARTY TIME');
+     // });
+  });
+
   $('button').on('click', function(event) {
-    
+    $.each(window.dancers, function() {
+      this.lineUp();
+    });
   });
 
 });

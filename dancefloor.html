@@ -11,16 +11,34 @@
     <script src="src/dimitriDancer.js"></script>
     <script src="src/codyDancer.js"></script>
     <script src="src/rubberBand.js"></script>
+
+    <style>
+    #target {
+      height: 50px;
+      /*margin: 50px;*/
+      /*background: #9cf;*/
+    }
+    .positionDiv {
+      position: absolute;
+      width: 75px;
+      height: 75px;
+      background: #080;
+    }
+    </style>
   </head>
   <body>
     <div class="topbar">
     <!-- insert a new link for each new dancer link here -->
-      <span class="title">object dance party</span>
+  <button>Line Up</button>
+      <span class="title">Object Dance Party</span>
       <a href="#" class="addDancerButton" data-dancer-maker-function-name="BlinkyDancer">Blinky Rochelle</a>
       <a href="#" class="addDancerButton" data-dancer-maker-function-name="ShakyDancer">Shaky Tre</a>
       <a href="#" class="addDancerButton" data-dancer-maker-function-name="DimitriDancer">Flipping Dimitri</a>
       <a href="#" class="addDancerButton" data-dancer-maker-function-name="RubberBandDancer">RubberBand Ryan</a>
       <a href="#" class="addDancerButton" data-dancer-maker-function-name="CodyDancer">Rolling Cody</a>
+    </div>
+    <div id="target">
+
     </div>
     <script src="src/init.js"></script>
 

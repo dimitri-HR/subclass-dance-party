@@ -21,13 +21,12 @@ Dancer.prototype.setPosition = function(top, left) {
   this.$node.css(styleSettings);
 };
 
-// make more dancers
-// add images
-  //
-// lineUp button
-
-
-
+Dancer.prototype.lineUp = function() {
+  var styleSettings = {
+    left: 0
+  };
+  this.$node.css(styleSettings);
+};
 
 //******************************
 
